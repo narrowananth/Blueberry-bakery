@@ -1,0 +1,260 @@
+<%- include ("partials/header2"); -%>
+<section>
+
+  <!--Table-->
+  <table class="table table-striped w-auto">
+
+
+
+    <!--Table body-->
+    <tbody>
+      <tr class="table-info">
+        <th style="text-align:center" width="200">Product</th>
+        <th style="text-align:center" width="200">Price</th>
+        <th style="text-align:center">Quantity</th>
+        <th style="text-align:center">Total</th>
+
+
+      </tr>
+      <tr>
+        <td> <img src="<%= img_url %>" width="100%" alt="..."></td>
+        <td>RS <%= img_amt %></td>
+        <td><input type="text" name="" value=""></td>
+        <td>RS <%= img_amt %></td>
+      </tr>
+      <tr>
+
+        <td><%= img_name %></td>
+        <td></td>
+        <td><button type="button" class="btn btn-outline-secondary">CLEAR CART</button></td>
+        <td><button type="button" class="btn btn-outline-secondary">UPDATE CART</button></td>
+
+      </tr>
+
+    </tbody>
+    <!--Table body-->
+
+
+  </table>
+  <!--Table-->
+
+</section>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<section>
+  <div class="card-group" style="padding:0% 10%">
+    <div class="card border border-white text-center">
+      <h5 class="card-title">CUSTOMER DETAIL</h5>
+      <br>
+      <div class="card-body">
+        <div class="container">
+          <div class="row">
+            <form class="form-horizontal">
+              <fieldset>
+                <!-- Address form -->
+                <!-- full-name input-->
+                <div class="control-group">
+                  <label class="control-label">Full Name</label>
+                  <div class="controls">
+                    <input id="full-name" name="full-name" type="text" placeholder="full name" class="input-xlarge">
+                    <p class="help-block"></p>
+                  </div>
+                </div>
+                <!-- address-line1 input-->
+                <div class="control-group">
+                  <label class="control-label">Address Line 1</label>
+                  <div class="controls">
+                    <input id="address-line1" name="address-line1" type="text" placeholder="address line 1" class="input-xlarge">
+
+                  </div>
+                </div>
+                <!-- address-line2 input-->
+                <div class="control-group">
+                  <label class="control-label">Address Line 2</label>
+                  <div class="controls">
+                    <input id="address-line2" name="address-line2" type="text" placeholder="address line 2" class="input-xlarge">
+
+                  </div>
+                </div>
+                <!-- city input-->
+                <div class="control-group">
+                  <label class="control-label">City / Town</label>
+                  <div class="controls">
+                    <input id="city" name="city" type="text" placeholder="city" class="input-xlarge">
+                    <p class="help-block"></p>
+                  </div>
+                </div>
+                <!-- region input-->
+                <div class="control-group">
+                  <label class="control-label">State / Province / Region</label>
+                  <div class="controls">
+                    <input id="region" name="region" type="text" placeholder="state / province / region" class="input-xlarge">
+                    <p class="help-block"></p>
+                  </div>
+                </div>
+                <!-- postal-code input-->
+                <div class="control-group">
+                  <label class="control-label">Zip / Postal Code</label>
+                  <div class="controls">
+                    <input id="postal-code" name="postal-code" type="text" placeholder="zip or postal code" class="input-xlarge">
+                    <p class="help-block"></p>
+                  </div>
+                </div>
+
+              </fieldset>
+            </form>
+          </div>
+        </div>
+        <br>
+
+      </div>
+    </div>
+    <div class="card border border-white text-center">
+      <h5 class="card-title">PAYMENT MODE</h5>
+
+      <br>
+      <div class="card-body">
+
+        <div class="padding">
+          <div class="row">
+            <div class="col">
+              <div class="card">
+                <div class="card-header">
+                  <strong>Credit Card</strong>
+                  <small>enter your card details</small>
+                </div>
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col">
+                      <div class="form-group">
+                        <label for="name">Name</label>
+                        <input class="form-control" id="name" type="text" placeholder="Enter your name">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <div class="form-group">
+                        <label for="ccnumber">Credit Card Number</label>
+                        <div class="input-group">
+                          <input class="form-control" type="text" placeholder="0000 0000 0000 0000" autocomplete="email">
+                          <div class="input-group-append">
+                            <span class="input-group-text">
+                              <i class="mdi mdi-credit-card"></i>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="form-group ">
+                      <label for="ccmonth">Month</label>
+                      <select class="form-control" id="ccmonth">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                      </select>
+                    </div>
+                    <div class="form-group ">
+                      <label for="ccyear">Year</label>
+                      <select class="form-control" id="ccyear">
+                        <option>2014</option>
+                        <option>2015</option>
+                        <option>2016</option>
+                        <option>2017</option>
+                        <option>2018</option>
+                        <option>2019</option>
+                        <option>2020</option>
+                        <option>2021</option>
+                        <option>2022</option>
+                        <option>2023</option>
+                        <option>2024</option>
+                        <option>2025</option>
+                      </select>
+                    </div>
+                    <div class="col">
+                      <div class="form-group">
+                        <label for="cvv">CVV/CVC</label>
+                        <input class="form-control" id="cvv" type="text" placeholder="123">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <button class="btn btn-sm btn-success float-right" type="submit">
+                    <i class="mdi mdi-gamepad-circle"></i> Continue</button>
+                  <button class="btn btn-sm btn-danger" type="reset">
+                    <i class="mdi mdi-lock-reset"></i> Reset</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="card border border-white text-center">
+      <h5 class="card-title">CART TOTAL</h5>
+      <small>Find info</small>
+      <br>
+      <div class="card-body">
+        <table class="table table-striped w-auto">
+          <!--Table body-->
+          <tbody>
+            <tr>
+              <td>Subtotal </td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>RS <%= img_amt %></td>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+              <td>Shipping </td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>FREE</td>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+              <td>Total </td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>RS <%= img_amt %></td>
+            </tr>
+
+          </tbody>
+
+          <!-- <tfoot>
+            <center> <a href="#" class="btn btn-outline-primary">PROCEED TO CHECKOUT</a></center>
+        </tfoot> -->
+          <!--Table body-->
+
+
+        </table>
+      </div>
+
+    </div>
+  </div>
+  <center> <a href="#" class="btn btn-outline-primary">CONTINUE SHOPPING</a></center>
+</section>
+
+<%- include("partials/footer"); -%>

@@ -1,0 +1,140 @@
+
+table{
+  margin-left: auto;
+margin-right: auto;
+}
+
+th,td{
+  text-align: center;
+}
+
+#title
+{
+
+  background-color:  #fff;
+
+  padding: 1% 2%;
+
+
+}
+.navbar{
+
+  background-color:  #fff;
+}
+
+.container-fluid
+{
+  padding: 0%;
+}
+
+
+.head_title
+{
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+
+
+.navbar-brand
+{
+
+  font-weight: bold;
+
+}
+
+.nav-item
+{
+  padding:0 18px;
+}
+
+.nav-link , .dropdown-item
+{
+   font-size: .95rem;
+   color: #454545;
+ text-transform: uppercase;
+
+}
+
+.carousel-item
+{
+    padding:0% 0%;
+}
+
+
+#sub-div
+{
+  padding: 5% 12%;
+  text-align: center;
+}
+.rows
+{
+    padding: 7% 1%;
+}
+.icon
+{
+  margin-bottom: 1rem;
+}
+.icon:hover
+{
+  color:#00bfff;
+}
+
+
+#sub-body
+{
+
+  text-align: center;
+  background-color:  #fff;
+  padding:3% 3%;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+
+        .centered-txt:hover{
+           color: #f0e5d8;
+        }
+
+
+        .cs-img
+        {
+          display: block;
+           margin-left: auto;
+           margin-right: auto;
+           width: 100%;
+           padding: 0% 0%;
+
+        }
+
+#pricing{
+  background-color: #fff;
+  padding: 0% 5%;
+}
+
+
+.card-heading
+{
+  color:  #00bfff;
+    text-align: center;
+}
+.card-foot{
+    text-align: center;
+}
+#contact-us{
+  padding: 5% 12%;
+  text-align: center;
+
+}
+.social-icon{
+margin: 10px 12px;
+}
+.social-icon:hover
+{
+  color:#00bfff;
+}
